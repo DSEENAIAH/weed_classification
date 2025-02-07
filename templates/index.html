@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weed Classification</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(to right, #00c6ff, #0072ff);
+        color: #fff;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        max-width: 800px;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        animation: fadeIn 1s ease-in-out;
+      }
+
+      h2 {
+        font-size: 2.8rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 25px;
+      }
+
+      .form-group {
+        margin-bottom: 25px;
+      }
+
+      .form-group label {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #333;
+      }
+
+      .form-control {
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        font-size: 1rem;
+        margin-top: 10px;
+      }
+
+      .btn-primary {
+        background-color: #ff4d4d;
+        border: none;
+        padding: 12px 30px;
+        font-size: 1.2rem;
+        border-radius: 50px;
+        box-shadow: 0 8px 16px rgba(255, 77, 77, 0.3);
+        transition: all 0.3s ease;
+      }
+
+      .btn-primary:hover {
+        background-color: #ff1a1a;
+        box-shadow: 0 8px 24px rgba(255, 26, 26, 0.4);
+      }
+
+      .result-container {
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #f1f1f1;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      }
+
+      .result-image {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        border-radius: 8px;
+        margin-top: 15px;
+      }
+
+      .not-weed {
+        color: #28a745;
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-top: 20px;
+      }
+
+      .weed {
+        color: #dc3545;
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-top: 20px;
+      }
+
+      .alert {
+        padding: 10px;
+        font-weight: 600;
+        font-size: 1.1rem;
+        border-radius: 10px;
+      }
+
+      .result-info p {
+        font-size: 1.1rem;
+        margin: 8px 0;
+        color: #333;
+        font-weight: 500;
+      }
+
+      .result-header {
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+        font-weight: 600;
+        text-align: left;
+      }
+
+      .form-group label,
+      .btn-primary {
+        font-family: "Poppins", sans-serif;
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Weed Classification</h2>
+      <form id="uploadForm" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="file">Upload an image of a plant:</label>
+          <input
+            type="file"
+            class="form-control"
+            id="file"
+            name="file"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          Classify Plant
+        </button>
+      </form>
+
+      <div id="result" class="result-container"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#uploadForm").on("submit", function (event) {
+          event.preventDefault();
+
+          var formData = new FormData(this);
+          $.ajax({
+            url: "/predict",
+            type: "POST",
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function (response) {
+              if (response.error) {
+                $("#result").html(
+                  '<div class="alert alert-danger">' + response.error + "</div>"
+                );
+              } else {
+                var resultHtml =
+                  "<div class='result-header'>Weed Classification Result:</div>";
+
+                if (response.isWeed) {
+                  resultHtml += "<p class='weed'>This is a weed!</p>";
+                  resultHtml += "<div class='result-info'>";
+                  resultHtml +=
+                    "<p><strong>Weed Type:</strong> " +
+                    response.WeedType +
+                    "</p>";
+                  resultHtml +=
+                    "<p><strong>Confidence:</strong> " +
+                    response.Confidence +
+                    "</p>";
+                  resultHtml +=
+                    "<p><strong>Control Measure:</strong> " +
+                    response.ControlMeasure +
+                    "</p>";
+                  resultHtml +=
+                    "<p><strong>Climate:</strong> " + response.Climate + "</p>";
+                  resultHtml +=
+                    "<p><strong>Additional Info:</strong> " +
+                    response.AdditionalInfo +
+                    "</p>";
+                  resultHtml += "</div>";
+                } else {
+                  resultHtml += "<p class='not-weed'>This is not a weed.</p>";
+                }
+
+                resultHtml +=
+                  '<img src="' +
+                  response.ImagePath +
+                  '" class="result-image" alt="Uploaded Image">';
+                $("#result").html(resultHtml);
+              }
+            },
+            error: function (xhr, status, error) {
+              $("#result").html(
+                '<div class="alert alert-danger">An error occurred: ' +
+                  error +
+                  "</div>"
+              );
+            },
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

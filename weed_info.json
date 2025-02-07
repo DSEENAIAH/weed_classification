@@ -1,0 +1,202 @@
+[
+  {
+      "WeedType": "Parthenium hysterophorus",
+      "Confidence": "95.30%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, manual removal, crop rotation",
+      "Climate": "Warm, temperate regions",
+      "AdditionalInfo": "Invasive plant that affects crops and health.",
+      "ImagePath": "/path/to/uploaded/image1.jpg"
+  },
+  {
+      "WeedType": "Cirsium arvense",
+      "Confidence": "94.12%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, mowing, hand pulling",
+      "Climate": "Temperate climates",
+      "AdditionalInfo": "Perennial weed that invades grasslands.",
+      "ImagePath": "/path/to/uploaded/image2.jpg"
+  },
+  {
+      "WeedType": "Echinochloa crus-galli",
+      "Confidence": "92.50%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, flooding, crop rotation",
+      "Climate": "Tropical, subtropical regions",
+      "AdditionalInfo": "Commonly found in rice paddies and wetlands.",
+      "ImagePath": "/path/to/uploaded/image3.jpg"
+  },
+  {
+      "WeedType": "Amaranthus palmeri",
+      "Confidence": "93.70%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, hand weeding, crop rotation",
+      "Climate": "Warm, temperate regions",
+      "AdditionalInfo": "Highly resistant to many herbicides.",
+      "ImagePath": "/path/to/uploaded/image4.jpg"
+  },
+  {
+      "WeedType": "Solanum nigrum",
+      "Confidence": "91.20%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, manual removal",
+      "Climate": "Temperate regions",
+      "AdditionalInfo": "Toxic to humans and animals if consumed.",
+      "ImagePath": "/path/to/uploaded/image5.jpg"
+  },
+  {
+      "WeedType": "Sorghum halepense",
+      "Confidence": "90.60%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, mowing, crop rotation",
+      "Climate": "Tropical, subtropical regions",
+      "AdditionalInfo": "An aggressive weed that competes with crops.",
+      "ImagePath": "/path/to/uploaded/image6.jpg"
+  },
+  {
+      "WeedType": "Paspalum dilatatum",
+      "Confidence": "92.00%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, mowing, grazing",
+      "Climate": "Subtropical regions",
+      "AdditionalInfo": "Perennial grass that invades pastures.",
+      "ImagePath": "/path/to/uploaded/image7.jpg"
+  },
+  {
+      "WeedType": "Xanthium strumarium",
+      "Confidence": "89.50%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, hand weeding, mowing",
+      "Climate": "Temperate regions",
+      "AdditionalInfo": "Known as cocklebur, a toxic plant.",
+      "ImagePath": "/path/to/uploaded/image8.jpg"
+  },
+  {
+      "WeedType": "Trifolium repens",
+      "Confidence": "88.30%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Grazing, mowing",
+      "Climate": "Temperate regions",
+      "AdditionalInfo": "Also known as white clover, commonly found in lawns.",
+      "ImagePath": "/path/to/uploaded/image9.jpg"
+  },
+  {
+      "WeedType": "Convolvulus arvensis",
+      "Confidence": "90.80%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, manual removal",
+      "Climate": "Temperate regions",
+      "AdditionalInfo": "Common bindweed that affects crops and gardens.",
+      "ImagePath": "/path/to/uploaded/image10.jpg"
+  },
+  {
+      "WeedType": "Cenchrus ciliaris",
+      "Confidence": "91.50%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, mowing",
+      "Climate": "Tropical, subtropical regions",
+      "AdditionalInfo": "Common in grasslands and prairies.",
+      "ImagePath": "/path/to/uploaded/image11.jpg"
+  },
+  {
+      "WeedType": "Solanum sisymbriifolium",
+      "Confidence": "88.10%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, manual removal",
+      "Climate": "Tropical, subtropical regions",
+      "AdditionalInfo": "Known for its prickly nature and invasiveness.",
+      "ImagePath": "/path/to/uploaded/image12.jpg"
+  },
+  {
+      "WeedType": "Brassica napus",
+      "Confidence": "93.90%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, crop rotation",
+      "Climate": "Temperate regions",
+      "AdditionalInfo": "Also known as canola, can become invasive.",
+      "ImagePath": "/path/to/uploaded/image13.jpg"
+  },
+  {
+      "WeedType": "Rumex obtusifolius",
+      "Confidence": "92.80%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, mowing, hand pulling",
+      "Climate": "Temperate regions",
+      "AdditionalInfo": "Known as bitter dock, toxic to livestock.",
+      "ImagePath": "/path/to/uploaded/image14.jpg"
+  },
+  {
+      "WeedType": "Triticum aestivum",
+      "Confidence": "85.50%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, crop rotation",
+      "Climate": "Temperate regions",
+      "AdditionalInfo": "Wild wheat that competes with crops.",
+      "ImagePath": "/path/to/uploaded/image15.jpg"
+  },
+  {
+      "WeedType": "Malva sylvestris",
+      "Confidence": "89.70%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, manual removal",
+      "Climate": "Temperate regions",
+      "AdditionalInfo": "Known as common mallow, affects gardens.",
+      "ImagePath": "/path/to/uploaded/image16.jpg"
+  },
+  {
+      "WeedType": "Leptochloa fusca",
+      "Confidence": "90.10%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, flooding, crop rotation",
+      "Climate": "Tropical regions",
+      "AdditionalInfo": "Grows in wetland areas and rice fields.",
+      "ImagePath": "/path/to/uploaded/image17.jpg"
+  },
+  {
+      "WeedType": "Datura stramonium",
+      "Confidence": "87.30%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, manual removal",
+      "Climate": "Tropical, subtropical regions",
+      "AdditionalInfo": "Commonly known as jimsonweed, toxic and invasive.",
+      "ImagePath": "/path/to/uploaded/image18.jpg"
+  },
+  {
+      "WeedType": "Rudbeckia hirta",
+      "Confidence": "86.70%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, mowing",
+      "Climate": "Temperate regions",
+      "AdditionalInfo": "Commonly known as black-eyed Susan, a stubborn weed.",
+      "ImagePath": "/path/to/uploaded/image19.jpg"
+  },
+  {
+      "WeedType": "Lactuca serriola",
+      "Confidence": "93.00%",
+      "isWeed": true,
+      "Message": "This is a weed.",
+      "ControlMeasure": "Herbicides, manual removal",
+      "Climate": "Temperate regions",
+      "AdditionalInfo": "Commonly known as prickly lettuce, found in gardens.",
+      "ImagePath": "/path/to/uploaded/image20.jpg"
+  }
+]

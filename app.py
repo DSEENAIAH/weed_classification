@@ -7,6 +7,9 @@ from werkzeug.utils import secure_filename
 
 # Initialize Flask app
 app = Flask(__name__)
+@app.route("/")
+def home():
+    return "Hello, Railway!"
 
 # Load API Key from environment variable (Replace this with your actual API Key in .env file)
 API_KEY = os.environ.get("PLANT_ID_API_KEY", "FRSaEd1HFSWGj7pWbTBuvlM1AK5HC4GPxy7fC1NEpmwdSQXGtv")
@@ -145,5 +148,9 @@ if __name__ == '__main__':
     # Ensure upload folder exists
     if not os.path.exists(UPLOAD_FOLDER):
         os.makedirs(UPLOAD_FOLDER)
+
+    port = int(os.environ.get("PORT", 5000))  # Get Railway PORT, default to 5000 locally
+    app.run(host="0.0.0.0", port=port, debug=True)
+
     
     app.run(debug=True)

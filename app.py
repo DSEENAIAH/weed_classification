@@ -9,7 +9,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 @app.route("/")
 def home():
-    return "Hello, Railway!"
+    return "index.html"
 
 # Load API Key from environment variable (Replace this with your actual API Key in .env file)
 API_KEY = os.environ.get("PLANT_ID_API_KEY", "FRSaEd1HFSWGj7pWbTBuvlM1AK5HC4GPxy7fC1NEpmwdSQXGtv")

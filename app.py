@@ -9,7 +9,8 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 @app.route("/")
 def home():
-    return "index.html"
+    return render_template("index.html")  # Ensure this file exists in the templates folder
+
 
 # Load API Key from environment variable (Replace this with your actual API Key in .env file)
 API_KEY = os.environ.get("PLANT_ID_API_KEY", "FRSaEd1HFSWGj7pWbTBuvlM1AK5HC4GPxy7fC1NEpmwdSQXGtv")
@@ -145,7 +146,11 @@ def predict():
         return jsonify({'error': 'Invalid file format'})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
+    app.run(host="0.0.0.0", port=8080, debug=True)
+
+    
+if not os.path.exists(UPLOAD_FOLDER):
+    os.makedirs(UPLOAD_FOLDER)
 
     
     app.run(debug=True)

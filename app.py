@@ -144,13 +144,8 @@ def predict():
     else:
         return jsonify({'error': 'Invalid file format'})
 
-if __name__ == '__main__':
-    # Ensure upload folder exists
-    if not os.path.exists(UPLOAD_FOLDER):
-        os.makedirs(UPLOAD_FOLDER)
-
-    port = int(os.environ.get("PORT", 5000))  # Get Railway PORT, default to 5000 locally
-    app.run(host="0.0.0.0", port=port, debug=True)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080)
 
     
     app.run(debug=True)

@@ -1,0 +1,500 @@
+Aloe Vera  
+Cactus  
+Agave  
+Sedum  
+Echeveria  
+Hens and Chicks  
+Opuntia  
+Crassula  
+Kalanchoe  
+Yucca  
+Pachypodium  
+Aeonium  
+Lithops  
+Stapelia  
+Senecio  
+Pachira  
+Fockea  
+Portulaca  
+Rhipsalis  
+Hosta  
+Fern  
+Japanese Maple  
+Astilbe  
+Bleeding Heart  
+Lungwort  
+Liriope  
+Coral Bells  
+Hellebore  
+Foamflower  
+Tiarella  
+Bergenia  
+Solomon's Seal  
+Wild Ginger  
+Japanese Forest Grass  
+Creeping Jenny  
+Woodland Strawberry  
+Pulmonaria  
+Ajuga  
+Spider Plant  
+Snake Plant  
+Peace Lily  
+English Ivy  
+ZZ Plant  
+Pothos  
+Philodendron  
+Dracaena  
+Bamboo Palm  
+Ficus  
+Parlor Palm  
+Areca Palm  
+Date Palm  
+Sago Palm  
+Fan Palm  
+Canary Island Palm  
+Pygmy Date Palm  
+Queen Palm  
+Majesty Palm  
+Raphis Palm  
+Coconut Palm  
+Bottle Palm  
+Mexican Fan Palm  
+Pineapple Palm  
+Bismarck Palm  
+Windmill Palm  
+Himalayan Birch  
+Silver Birch  
+River Birch  
+Yellow Birch  
+Paper Birch  
+Black Birch  
+Red Birch  
+Mountain Ash  
+Cherry Birch  
+Red Maple  
+Silver Maple  
+Sugar Maple  
+Boxelder  
+Red Oak  
+White Oak  
+Pin Oak  
+Black Oak  
+Bur Oak  
+Live Oak  
+Willow Oak  
+Northern Catalpa  
+Yellowwood  
+Black Locust  
+American Elm  
+Siberian Elm  
+Rock Elm  
+Boxwood  
+Holly  
+Spirea  
+Barberry  
+Winterberry  
+Beautyberry  
+Juniper  
+Privet  
+Nandina  
+Forsythia  
+Caryopteris  
+Buddleia  
+Clematis  
+Lantana  
+Wisteria  
+Morning Glory  
+Grape Vine  
+Kiwi Vine  
+Passionfruit Vine  
+Ivy  
+Virginia Creeper  
+Hops  
+Cucumber Vine  
+Mandevilla  
+Bougainvillea  
+Honeysuckle  
+Trumpet Vine  
+Climbing Rose  
+Clematis  
+Campsis  
+Passion Flower  
+Pothos  
+Fuchsia  
+Sweet Pea  
+Trumpet Lily  
+Daylily  
+Astilbe  
+Bells of Ireland  
+Monkshood  
+Spider Lily  
+St. John's Wort  
+Yarrow  
+Periwinkle  
+Nasturtium  
+Camellia  
+Fuchsia  
+Azalea  
+Rhododendron  
+Jasmine  
+Gardenia  
+Magnolia  
+Sweet Osmanthus  
+Tuberose  
+Plumeria  
+Oleander  
+Lily of the Valley  
+Heliotrope  
+Forget-Me-Not  
+Crocus  
+Snowdrop  
+Anemone  
+Aconite  
+Thistle  
+Larkspur  
+Iris  
+Morning Glory  
+Calla Lily  
+Zinnia  
+Canna Lily  
+Alstroemeria  
+Snapdragon  
+Petunia  
+Calendula  
+Geranium  
+Marigold  
+Violet  
+Poppy  
+Peony  
+Carnation  
+Daffodil  
+Tulip  
+Lily  
+Orchid  
+Hydrangea  
+Begonia  
+Sweet Alyssum  
+Dianthus  
+Stock  
+Phlox  
+Aster  
+Cosmos  
+Black-Eyed Susan  
+Gerbera Daisy  
+Angelonia  
+Lantana  
+Echinacea  
+Lobelia  
+Coreopsis  
+Rudbeckia  
+Foxglove  
+Balsam  
+Petunia  
+Fuchsia  
+Pansy  
+Viola  
+Clematis  
+Zinnia  
+Impatiens  
+Verbena  
+Salvia  
+Begonia  
+Astilbe  
+Hostas  
+Hellebore  
+Allium  
+Coreopsis  
+Astilbe  
+Liriope  
+Fennel  
+Oregano  
+Lavender  
+Chamomile  
+Parsley  
+Sage  
+Thyme  
+Basil  
+Rosemary  
+Dill  
+Mint  
+Tarragon  
+Lemon Balm  
+Bay Laurel  
+Chives  
+Winter Savory  
+Chervil  
+Mustard  
+Cress  
+Rue  
+Comfrey  
+Lovage  
+Marjoram  
+Stevia  
+Epazote  
+Mexican Tarragon  
+Cardamom  
+Ginger  
+Turmeric  
+Angelica  
+Lavender  
+Bergamot  
+Lemon Verbena  
+Saffron  
+Black Pepper  
+Coriander  
+Celery  
+Watercress  
+Endive  
+Arugula  
+Fennel  
+Sorrel  
+Lettuce  
+Spinach  
+Chard  
+Kale  
+Collard Greens  
+Mustard Greens  
+Turnip Greens  
+Beetroot  
+Carrot  
+Onion  
+Leek  
+Shallot  
+Garlic  
+Sweet Potato  
+Potato  
+Radish  
+Parsnip  
+Celery Root  
+Salsify  
+Oca  
+Daikon  
+Kohlrabi  
+Eggplant  
+Cucumber  
+Zucchini  
+Sweet Corn  
+Pea  
+Bean  
+Bell Pepper  
+Chili Pepper  
+Okra  
+Cabbage  
+Broccoli  
+Cauliflower  
+Brussel Sprouts  
+Artichoke  
+Squash  
+Pumpkin  
+Butternut Squash  
+Acorn Squash  
+Hubbard Squash  
+Spaghetti Squash  
+Sweet Bell Pepper  
+Cucamelon  
+Watermelon  
+Cantaloupe  
+Honeydew Melon  
+Pineapple  
+Papaya  
+Kiwi  
+Mango  
+Passionfruit  
+Guava  
+Lychee  
+Rambutan  
+Longan  
+Starfruit  
+Dragonfruit  
+Durian  
+Mangosteen  
+Jackfruit  
+Breadfruit  
+Cacao  
+Tangerine  
+Clementine  
+Orange  
+Grapefruit  
+Lemon  
+Lime  
+Pear  
+Plum  
+Apricot  
+Apple  
+Cherry  
+Nectarine  
+Pomegranate  
+Mulberry  
+Elderberry  
+Gooseberry  
+Red Currant  
+Black Currant  
+Raspberry  
+Blackberry  
+Strawberry  
+Blueberry  
+Gooseberry  
+Huckleberry  
+Cranberry  
+Jujube  
+Soursop  
+Pawpaw  
+Sandpaper Fig  
+Persimmon  
+Medlar  
+Mamey  
+Chayote  
+Rambutan  
+Kumquat  
+Acerola  
+Sea Buckthorn  
+Lychee  
+Bilberry  
+Elderflower  
+Mulberry  
+Sugar Apple  
+Sugar Cane  
+Stevia  
+Tamarind  
+Yacon  
+Black Walnut  
+Pine Nut  
+Hazelnut  
+Chestnut  
+Almond  
+Cashew  
+Pecan  
+Brazil Nut  
+Macadamia  
+Coconut  
+Pistachio  
+Pine Nut  
+Ginkgo  
+Red Maple  
+Cherry Blossom  
+Apple Blossom  
+Dogwood  
+Hawthorn  
+Sweetgum  
+Catalpa  
+Yellowwood  
+Black Locust  
+Siberian Elm  
+Rock Elm  
+Wisteria  
+Honeysuckle  
+Trumpet Vine  
+Morning Glory  
+Bleeding Heart  
+Spirea  
+Barberry  
+Juniper  
+Boxwood  
+Nandina  
+Forsythia  
+Lantana  
+Hops  
+Clematis  
+Snapdragon  
+Petunia  
+Marigold  
+Dahlia  
+Zinnia  
+Cosmos  
+Lilac  
+Fuchsia  
+Aster  
+Violet  
+Lavender  
+Violet  
+Azalea  
+Camellia  
+Peony  
+Tulip  
+Iris  
+Crocus  
+Snowdrop  
+Lily  
+Calla Lily  
+Orchid  
+Orchid  
+Morning Glory  
+Snapdragon  
+Lantana  
+Sweet Pea  
+Fuchsia  
+Jasmine  
+Bellflower  
+Columbine  
+Gladiolus  
+Poppy  
+Carnation  
+Daffodil  
+Anemone  
+Petunia  
+Peony  
+Cactus  
+Succulent  
+Bamboo  
+Echeveria  
+Opuntia  
+Sedum  
+Crassula  
+Aloe Vera  
+Agave  
+Yucca  
+Hens and Chicks  
+Jade Plant  
+Pothos  
+Dracaena  
+ZZ Plant  
+Spider Plant  
+Snake Plant  
+Peace Lily  
+English Ivy  
+Bamboo Palm  
+Ficus  
+Parlor Palm  
+Areca Palm  
+Sago Palm  
+Canary Island Palm  
+Pygmy Date Palm  
+Queen Palm  
+Majesty Palm  
+Raphis Palm  
+Mexican Fan Palm  
+Windmill Palm  
+Bottle Palm  
+Bismarck Palm  
+Pineapple Palm  
+Date Palm  
+Coconut Palm  
+Cabbage Palm  
+Feather Palm  
+Silver Palm  
+Needle Palm  
+Palmetto Palm  
+Jelly Palm  
+Foxtail Palm  
+Triangle Palm  
+Christmas Palm  
+Lady Palm  
+Windmill Palm  
+Double Coconut  
+Royal Palm  
+Pygmy Date Palm  
+Monkey Puzzle Tree  
+Ponderosa Pine  
+Coastal Redwood  
+Sequoia  
+Red Cedar  
+Juniper  
+Western Hemlock  
+Douglas Fir  
+Spruce  
+Larch  
+Bald Cypress  
+Eastern Hemlock  
+Longleaf Pine  
+Black Pine  
+Lodgepole Pine
